@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
-import os
 
 COLOR_SCHEME = {
     'primary': '#1e88e5',
@@ -14,10 +13,10 @@ COLOR_SCHEME = {
 
 @st.cache_data
 def load_data():
-    day_df = pd.read_csv(os.path.join("dashboard", "day_clean.csv"))
+    day_df = pd.read_csv("dashboard/day_clean.csv")
     day_df['dateday'] = pd.to_datetime(day_df['dateday'])
     
-    hour_df = pd.read_csv(os.path.join("dashboard", "hour_clean.csv"))
+    hour_df = pd.read_csv("dashboard/hour_clean.csv")
     hour_df['dateday'] = pd.to_datetime(hour_df['dateday'])
     
     return day_df, hour_df
