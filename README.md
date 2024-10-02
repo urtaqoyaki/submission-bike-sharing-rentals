@@ -2,9 +2,10 @@
 
 
 ## 📊 Tentang Proyek
+Proyek ini merupakan tugas akhir dari kursus "Belajar Analisis Data Dengan Python" oleh Dicoding. Tujuannya adalah menganalisis dataset bike sharing dan membuat dashboard interaktif.
+Dalam file notebook, terdapat tahapan analisis yang mencakup pembersihan data, analisis eksploratif, visualisasi data, dan dashboard.
 
-Selamat datang di repositori proyek analisis data. Proyek ini fokus menggunakan dataset Bike Sharing, dengan tujuan menjawab pertanyaan bisnis yang ada.
-
+Dashboard interaktif dibuat menggunakan Streamlit, menampilkan hasil analisis secara visual yang dapat diakses melalui tautan [dashboard](https://bike-sharing-rentals-tq.streamlit.app/)
 ## 📁 Struktur Proyek
 
 ```
