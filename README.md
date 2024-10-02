@@ -3,7 +3,7 @@
 
 ## 📊 Tentang Proyek
 
-Selamat datang di repositori proyek analisis data saya! Proyek ini fokus pada analisis Dataset Bike Sharing, dengan tujuan menghasilkan wawasan berharga dari data tersebut. Dashboard interaktif dibangun menggunakan **Streamlit** <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" width="20" alt="Logo Streamlit"></img>.
+Selamat datang di repositori proyek analisis data. Proyek ini fokus menggunakan dataset Bike Sharing, dengan tujuan menjawab pertanyaan bisnis yang ada.
 
 ## 📁 Struktur Proyek
 
