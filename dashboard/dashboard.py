@@ -13,10 +13,10 @@ COLOR_SCHEME = {
 
 @st.cache_data
 def load_data():
-    day_df = pd.read_csv("submission_1/dashboard/day_clean.csv")
+    day_df = pd.read_csv("D:\submission\dashboard\day_clean.csv")
     day_df['dateday'] = pd.to_datetime(day_df['dateday'])
     
-    hour_df = pd.read_csv("submission_1/dashboard/hour_clean.csv")
+    hour_df = pd.read_csv("D:\submission\dashboard\hour_clean.csv")
     hour_df['dateday'] = pd.to_datetime(hour_df['dateday'])
     
     return day_df, hour_df
